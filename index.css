@@ -277,10 +277,11 @@ footer {
 
 .section-introd h1 {
     text-align: center;
-    color: blue;
+    color:  rgb(245, 219, 75);
     font-size: 4em;
     font-weight: 700;
     font-family: 'Sen', sans-serif;
+    
 }
 
 .section-introd header {
