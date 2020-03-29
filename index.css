@@ -266,7 +266,7 @@ footer {
 .section-introd {
     height: auto;
     width: 100%;
-    background-image: url(img/ab.jpg);
+    background-image: url(ab.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
