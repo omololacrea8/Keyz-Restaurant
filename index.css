@@ -128,11 +128,11 @@ a.link-to-book:hover {
     margin: 30px 20px;
     font-size: 1.2em;
 }
-
-.form-group p {
-    font-size: 1.2em;
+#here{
+    text-decoration: none;
+    color:blue;
+    list-style-type: none;
 }
-
 .opening-time p span,
 .contact-adress p span {
     display: block;
