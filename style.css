@@ -1,0 +1,32 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    background: linear-gradient(#40a1b2, #27587b);
+  }
+  
+  .green-contact-form {
+    width: 700px;
+    margin:0 auto;
+    border-radius:10px;
+  }
+  
+  .title-form {
+    max-width: 550px;
+  }
+  
+  h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff;
+  }
+}

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: blue;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.section-intro {
+    height: 820px;
+    background: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;  
+}
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+.section-intro header {
+    margin-bottom: 200px;
+}
+.link-to-book-wrapper {
+    flex: 1;
+    position: absolute;
+    text-align: center;   
+}
+button{
+    border-radius: 25px;
+    background:blue;
+    box-shadow: 2px black;
+
+}
+.link-to-book {
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    color: #ffffff;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s ease;  
+}
+a.link-to-book:hover {
+    color: rgb(16, 172, 245);
+    text-decoration: none;
+    background-position: right;
+}
+.about-section {  
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;  
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;     
+}
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+
+.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: blue;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+    margin-top: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+.container{
+    background: rgb(53, 46, 46);
+}
+
+/*--footer---*/
+footer {
+    background-color: #6991AC;
+    width: 100%;
+  }
+  .social {
+    list-style-type: none;
+    text-align: center;
+  }
+  .social li {
+    display: inline;
+  }
+  .social i {
+    font-size: 450%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #C3D7DF;
+  }
+  .social i:hover {
+    color: #f5f5f5;
+  }
+  /*--- begining of second footer---*/
+  footer.second {
+    border-top: 2px solid #AADCD2;
+    background-color: #544859;
+    max-height: 35px;
+  }
+  footer.second p{
+    text-align: center;
+  }
+.social a.facebook:hover
+{
+  background-color:blue
+}
+.social a.twitter:hover
+{
+  background-color:#00aced
+}
+.social a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+.social a.instagram:hover
+{
+  background-color:#f10b63
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 230px){
+    .about-section p,
+    .about-section h3 {
+        font-size: 10px;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+
+    .opening-time p span,
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}
+.section-introd {
+    height: auto;
+    width: 100%;
+    background-image: url(img/ab.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-introd h1 {
+    text-align: center;
+    color: blue;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-introd header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+}
+.link {
+    flex: 1;
+}
+.link p{
+    color: white;
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25em;
+}
+@media screen and (max-width: 800px) {
+
+    .section-introd h1{
+        font-size: 3em;
+    }
+    .link p{
+        font-size: 20px;
+    }
