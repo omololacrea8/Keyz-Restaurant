@@ -266,12 +266,13 @@ footer {
 .section-introd {
     height: auto;
     width: 100%;
-    background-image: url(ab.jpg);
+    background-image: url(https://unsplash.com/photos/Jwk88nuBMr4/download?force=true);
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Sen', sans-serif;
 }
 
 .section-introd h1 {
@@ -279,6 +280,7 @@ footer {
     color: blue;
     font-size: 4em;
     font-weight: 700;
+    font-family: 'Sen', sans-serif;
 }
 
 .section-introd header {
@@ -288,6 +290,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 12em;
+    font-family: 'Sen', sans-serif;
 }
 .link {
     flex: 1;
